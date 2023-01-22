@@ -10,4 +10,4 @@ for _ in range(RANGE):
     to_add = input().split()
     chem_set.update(to_add)
 
-print(chem_set)
+for i in chem_set: print(i)
